@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - ReadyStatus
+  - MiniMap Camera
+  - Marker
+  - RenderImage
+  - ImposterObject
+  - CrewmateObject
+  - MeetingButton
+  - Spawners
+  - PlayerNameTag
+  - Corpse
+  - Download
+  - Medbay
+  - CafeteriaWiring
+  - SecurityWiring
+  - UpperEngineWiring
+  - LowerEngineWiring
+  - NavigationWiring
+  - ReactorWiring
+  - AdminWiring
+  - StorageWiring
+  - ShieldsWiring
+  - WeaponsWiring
+  - O2Wiring
+  - WeaponsDownload
+  - CafeteriaDownload
+  - CommsDownload
+  - AdminDownload
+  - NavigationDownload
+  - LowerEngineTemperature
+  - UpperEngineTemperature
+  - ElectricalDownload
+  - StartReactor
+  - StartShields
+  - Audio
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Minimap
+  - Lights
+  - Dead player layer
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Debug
+    uniqueID: 3401570817
+    locked: 0
+  - name: UI
+    uniqueID: 510635943
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
