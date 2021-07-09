@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AppID: 282468f9-6ea6-44b6-b78c-bc9764160fc0
   VoiceAppID: 
-  ChatAppID: 
-  HostType: 1
-  PreferredRegion: 10
+  ChatAppID: 29296f13-61b8-447e-bc1c-97cbc89328e1
+  HostType: 4
+  PreferredRegion: 0
   EnabledRegions: -1
   Protocol: 0
   ServerAddress: 
@@ -28,28 +28,22 @@ MonoBehaviour:
   NetworkLogging: 1
   RunInBackground: 1
   RpcList:
+  - AssignColors
   - Chat
   - DestroyRpc
   - InstantiateRpc
   - PickupItemInit
+  - PressedButton
   - PunPickup
   - PunPickupSimple
   - PunRespawn
+  - ReadyUpInGame
+  - ReportPressedButton
   - RequestForPickupItems
   - RequestForPickupTimes
-  - AssignColors
-  - ReadyUpInGame
-  - 
-  - 
-  - 
-  - AssignCameras
-  - AssignMinimapScript
   - RPC_SENDASSIGNDATA
-  - PressedButton
-  - SyncColor
   - SetDead
-  - ReportPressedButton
   - SetNumImposters
-  - Vote
   - SetPlayerDead
+  - SyncColor
   DisableAutoOpenWizard: 1

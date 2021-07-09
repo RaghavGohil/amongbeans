@@ -1,4 +1,6 @@
 ﻿using UnityEngine;
+using UnityEngine.Audio;
+using System;
 
 public class Player_Movement : MonoBehaviour
 {
@@ -69,7 +71,7 @@ public class Player_Movement : MonoBehaviour
 
             if ( Input.GetButtonDown( "Horizontal" ) || Input.GetButtonDown( "Vertical" ) )
                 gameObject.GetComponent<SoundHandler>().PlaySFX("Walk");
-            else if ( !Input.GetButton( "Horizontal" ) && !Input.GetButton( "Vertical" )) //Play Sounds
+            else if (!Input.GetButton( "Horizontal" ) && !Input.GetButton( "Vertical" )) //Play Sounds
                 gameObject.GetComponent<SoundHandler>().StopSFX("Walk");
 
             if ((playerCanJump == true && Input.GetKeyDown(KeyCode.Space)) && isGrounded)

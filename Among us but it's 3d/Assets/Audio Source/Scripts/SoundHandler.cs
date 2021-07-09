@@ -52,7 +52,8 @@ public class SoundHandler : MonoBehaviour
         if (name != null)
         {
             Sound s = Array.Find(SoundStorage, Sound => Sound.name == name);
-            s.src.Stop();
+            if(s.src != null)
+                s.src.Stop();
         }
         else
         {
