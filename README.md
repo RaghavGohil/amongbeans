@@ -22,3 +22,5 @@ Reddit : https://www.reddit.com/user/TheLowEnd_
 Developer's Note:
 
 Use this project only for studying. Publishing this project is strictly prohibited.
+
+[Development Stopped]
